@@ -23,15 +23,6 @@ public class Main {
                 System.out.println("----------------------------------------------------------------");
                 
             }
-            /*System.out.println("protocol  "+google.getProtocol());
-            System.out.println("Authority  "+google.getAuthority());
-            System.out.println("Host "+google.getHost());
-            System.out.println("Port  "+google.getPort());
-            System.out.println("Path  "+google.getPath());
-            System.out.println("Query  "+google.getQuery());
-            System.out.println("File  "+google.getFile());
-            System.out.println("Ref  "+google.getRef());
-            */
         } catch (IOException x) {
             System.err.println(x);
  }
@@ -81,8 +72,7 @@ public class Main {
 		p.println(texto);
 		p.close();
 	} catch (FileNotFoundException e) {		
-}
-       System.out.println("escribio");
+            }
    }
 }
 

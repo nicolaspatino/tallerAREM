@@ -10,8 +10,9 @@ import java.net.*;
  *
  * @author 2112712
  */
-public class Servidor {
-    public static void main(String[] args) throws IOException{
+public class  EchoClient {
+    
+  public static void main(String[] args) throws IOException {
         Socket echoSocket = null;
         PrintWriter out = null;
         BufferedReader in = null;
